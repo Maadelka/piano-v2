@@ -2,7 +2,7 @@
 beta test
 
 
-keyboard key :
+keyboard key dasar:
 z
 x
 c
@@ -12,3 +12,15 @@ n
 m
 ,
 .
+q
+w
+e
+r
+t
+y
+u
+i
+o
+p
+
+keyboard key # :
