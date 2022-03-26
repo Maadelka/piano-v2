@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.menuS {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 95%;
+  height: 25%;
+  border: 1px solid black;
+  border-bottom: 2px solid white;
+  background-image: linear-gradient(to right, blue, black);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px black;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 50%;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #083b68;
+  background-image: linear-gradient(to right, blue, black);
+  box-shadow: 0 3px 5px black;
+}
+.container .child {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  width: 20%;
+  height: 100%;
+  position: relative;
+  background-color: blanchedalmond;
+  transition: 0.2s;
+  padding-bottom: 5px;
+  font-weight: bold;
+  margin: 2px;
+  border-radius: 3px;
+  font-size: 1rem;
+  box-shadow: 0 3px 3px black;
+  cursor: pointer;
+}
+.container .child:nth-child(19) {
+  overflow: hidden;
+}
+.container .child:hover {
+  background-color: #d6c5ab;
+  box-shadow: 0 2px 1px black;
+  font-size: 0.9rem;
+  color: #043c87;
+}
+.container .child .kdw {
+  background-color: #30f000;
+  box-shadow: 0 2px 1px black;
+  font-size: 0.9rem;
+  color: #043c87;
+}
+.container .child .ck {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  width: 80%;
+  height: 40%;
+  position: absolute;
+  top: 0;
+  background-color: #0f0b85;
+  right: -40%;
+  z-index: 99;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding-bottom: 5px;
+  color: white;
+  box-shadow: 0 3px 3px black;
+  font-size: 1rem;
+}
+.container .child .ck:hover {
+  background-color: #010024;
+  box-shadow: 0 1px 1px black;
+  font-size: 0.9rem;
+  color: yellow;
+}/*# sourceMappingURL=main.css.map */

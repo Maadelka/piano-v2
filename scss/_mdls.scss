@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+// font-family: 'Exo 2', sans-serif;
+
+// =============================================reset
+//  @include reset();
+@mixin reset {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+// ======================================== function display flex
+// @include disp-flex( , , );
+@mixin disp-flex($justyfy: auto, $align: auto, $direct: row, ) {
+    display: flex;
+    flex-direction: $direct;
+    justify-content: $justyfy;
+    align-items: $align;
+}
+// ==============================================linear gradient
+// @include linegrad( , );
+@mixin linegrad($p1: blue, $p2:black) {
+    background-image: linear-gradient(to right, $p1, $p2);
+}
+
+// ================================================= width & height
+// @include w-h(100%,20px);
+@mixin w-h ($w, $h){
+    width: $w;
+    height: $h;
+}
+
+// ==================================================== font
+// @include mdls.font(Arial,1em,black);
+@mixin font($family:Arial, $size:1rem , $color:black) {
+    font-family: $family;
+    font-size: $size;
+    color: $color;
+}
+// font-family: 'Kaushan Script'
+// font-family: 'Luxurious Roman'
+// font-family: 'Moon Dance'
+// font-family: 'Oswald'
+// font-family: 'Tinos'
+
+// @include grid-c(repeat(6,1fr), minmax(100px,auto));
+@mixin grid-c ($gtc:1fr, $gar:minmax(100px,auto)){
+    display: grid;
+    // grid-template-columns: repeat(3, minmax(auto, 1fr));
+    grid-template-columns: $gtc;
+    // grid-template-rows: repeat(2, 200px);
+    grid-auto-rows: $gar;
+    grid-gap: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ==============================================bg color
+// @include mdls.bg-c( , );
+// @mixin bg-c($p1: blue) {
+//     background-color: $p1;
+// }
