@@ -1,4 +1,4 @@
-document.body.style.backgroundColor=`lightblue`
+document.body.style.backgroundColor=`gray`
 
 let ck=document.getElementById('ck')
 let child=document.querySelectorAll('child')
